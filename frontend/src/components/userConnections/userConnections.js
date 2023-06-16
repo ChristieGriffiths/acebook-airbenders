@@ -42,6 +42,7 @@ const UserConnections = ({userId, token, setToken}) => {
     if (response.status === 201) {
       let data = await response.json();
       setToken(data.token);
+      setUserInput("");
     } else {
       console.log("Failed to add friend");
     }
