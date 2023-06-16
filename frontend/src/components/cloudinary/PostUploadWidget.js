@@ -65,7 +65,7 @@ const PostUploadWidget = ({setImageUrl, setUploadStatus}) => {
 
   return (
     <div>
-      <button className="post-image-upload-button" type="button" onClick={openWidget}>Add a photo to your post</button>
+      <button className="post-image-upload-button grey-button" type="button" onClick={openWidget}>Add a photo to your post</button>
     </div>
   );
 }

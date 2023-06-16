@@ -58,7 +58,7 @@ const PostCreateForm = ({token, setToken}) => {
         <div className="form-container">
         <p className="upload-status">{uploadStatus}</p>
         <PostUploadWidget setImageUrl={setImageUrl} setUploadStatus={setUploadStatus}/>
-        <input id="submit" type="submit" value="Post"/>
+        <input className="grey-button" id="submit" type="submit" value="Post"/>
         <p className="validation-error">{validationError}</p>
       </div>
     </form>

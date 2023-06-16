@@ -112,8 +112,9 @@ Not sure if above is necessary, but left it commented just in case. */
     opacity: 0.5;
     background-color: grey;
   }
+}
 
-  &.is-closed {
-    max-width: 20%;
-  }
+.image {
+  width: 95%;
+  max-width: 1024px;
 }

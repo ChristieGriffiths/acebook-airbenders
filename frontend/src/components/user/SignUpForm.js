@@ -133,7 +133,7 @@ const SignUpForm = ({ navigate }) => {
                 <label htmlFor="password"></label>
                 <input className="auth-input" placeholder="Password" id="password" type="password" value={password} onChange={handlePasswordChange} />
                 <p className="validation-error">{validationError?.password}</p>
-                <input id="submit" type="submit" value="Sign Up" />
+                <input className="grey-button" id="submit" type="submit" value="Sign Up" />
               </div>
             </form>
           </div>

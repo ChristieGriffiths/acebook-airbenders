@@ -66,7 +66,7 @@ const CommentCreateForm = ({postId, token, setToken}) => {
   return (
     <form className="comment-create-form" onSubmit={submitComment} noValidate>
       <input className="comment-input" type="text" placeholder="Write a comment..." value={comment} onChange={handleCommentChange} required/>
-      <input className="comment-submit" id="comment-submit" type="submit" value="Comment"/>
+      <input className="comment-submit blue-button" id="comment-submit" type="submit" value="Comment"/>
       <p className="validation-error">{validationError}</p>
     </form>
   );

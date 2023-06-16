@@ -69,7 +69,7 @@ const CloudinaryUploadWidget = ({ setAvatar, setDeleteToken }) => {
 
   return (
     <div>
-      <button className="upload-avatar" type="button" onClick={openWidget}>
+      <button className="upload-avatar blue-button" type="button" onClick={openWidget}>
         Upload photo
       </button>
     </div>
