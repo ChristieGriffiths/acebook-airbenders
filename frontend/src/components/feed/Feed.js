@@ -86,8 +86,8 @@ const Feed = ({ navigate }) => {
             <UserConnections userId={userId} token={token} setToken={setToken} />
           </div>
           <div className="posts">
-            <h2>Posts</h2>
-            <button onClick={handleFeedChange}>{friendFeed ? "Show All Posts" : "Show Friends Posts"}</button>
+            <button className="blue-button" onClick={handleFeedChange}>{friendFeed ? "Show All Posts" : "Show Friends Posts"}</button>
+            <h2>{friendFeed ? "Friends Posts" : "All Posts"}</h2>
             <PostCreateForm token={token} setToken={setToken} />
             <div id="feed" role="feed">
               {

@@ -84,7 +84,7 @@ const LogInForm = ({ navigate }) => {
         </div>
 
         <div>
-        <input id="submit" type="submit" value="Login" />
+        <input className="grey-button" id="submit" type="submit" value="Login" />
         </div>
       </form>
 

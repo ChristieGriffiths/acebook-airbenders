@@ -59,7 +59,7 @@ const UserConnections = ({userId, token, setToken}) => {
               <div className="friend" key={user._id}>
                 <img src={user.avatar} alt="user avatar" width="20"/>
                 <p>{user.name}</p>
-                <button onClick={() => addFriend(user._id)}>Add friend</button>
+                <button className="blue-button" onClick={() => addFriend(user._id)}>Add friend</button>
               </div>)
           }
         </div>)}
