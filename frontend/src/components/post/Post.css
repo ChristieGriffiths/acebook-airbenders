@@ -116,5 +116,5 @@ Not sure if above is necessary, but left it commented just in case. */
 
 .image {
   width: 95%;
-  max-width: 1024px;
+  max-width: 768px;
 }
